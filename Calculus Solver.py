@@ -15,7 +15,7 @@ def integrate_function():
         expr = input('Enter expression to cancel, or q to quit ---> ')
         if expr == 'q':
             exit()
-        else: pprint(integrate(expr)) # Enter 3rd parameter to differentiate multiple times
+        else: pprint(integrate(expr))
 #Call function here
 
 
